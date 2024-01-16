@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) =>{
-    res.send('communicast server is running')
+    res.send("communicast server is running")
 });
 
 app.listen(port, ()=>{
